@@ -1,0 +1,151 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  flex: 0.65;
+}
+
+.chat_header {
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  /* border-bottom: 1px solid lightgray; */
+}
+
+.chat_headerInfo {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.chat_headerInfo > p {
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+
+.chat_headerInfo > p {
+  color: grey;
+}
+
+.chat_body {
+  flex: 1;
+  /* background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png"); */
+
+  background-position: center;
+  padding: 30px;
+  height: 100%;
+}
+/* https://i.ibb.co/GR2641c/1.jpg */
+.chat_message {
+  position: relative;
+  font-size: 16px;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 10px;
+  /* background-color: #ffffff; */
+  margin-bottom: 30px;
+}
+
+.chat_reciever {
+  margin-left: auto;
+  /* background-color: #dcf8c6; */
+}
+
+.chat_timestamp {
+  margin-left: 10px;
+  font-size: xx-small;
+}
+
+.chat_name {
+  position: absolute;
+  top: -15px;
+  font-weight: 800;
+  font-size: xx-small;
+}
+
+.messageDropdown {
+  visibility: visible;
+  position: absolute;
+  top: -13px;
+  left: 5px;
+}
+
+/* .messageDropdownVisible {
+  visibility: visible;
+} */
+
+.chatMenu {
+  position: absolute;
+  visibility: visible;
+  width: 60px;
+  height: 30px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  border-radius: 5px;
+  background-color: #f7fffa;
+  text-align: center;
+  z-index: 100;
+  top: 13px;
+}
+.chatMenu_recieve {
+  left: 8px;
+}
+.chatMenu_sent {
+  right: 8px;
+}
+.chatMenuVisible {
+  visibility: visible;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+li {
+  display: block;
+  padding: 6px;
+  float: left;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  font-size: 15px;
+}
+
+.chat_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  /* border-top: 1px solid lightgray; */
+}
+
+.chat_footer > form {
+  flex: 1;
+  display: flex;
+}
+
+.chat_footer > form > input {
+  flex: 1;
+  border-radius: 30px;
+  padding: 10px;
+  border: none;
+  outline-width: 0;
+}
+
+.chat_footer > form > button {
+  display: none;
+}
+
+.chat_footer > .MuiSvgIcon-root {
+  padding: 10px;
+  color: gray;
+}
+
+.scrollBars {
+  overflow-x: hidden;
+}
+
+.area > div:nth-child(1) {
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
+}
+.area > div:nth-child(2) {
+  display: none;
+}

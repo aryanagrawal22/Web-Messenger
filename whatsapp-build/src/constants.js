@@ -1,0 +1,1 @@
+export const ip = "https://whatsapp-backend-aryan.herokuapp.com/";

@@ -1,0 +1,51 @@
+# ----Main-------------------------------------------------------------------------
+Mongo.txt
+Tasks.txt   
+
+# ----Backend----------------------------------------------------------------------
+
+/whatsapp-backend/node_modules
+/whatsapp-backend/keys.txt
+/whatsapp-backend/.env
+
+
+# ----Frontend---------------------------------------------------------------------
+
+/whatsapp-build/node_modules
+/whatsapp-build/.pnp
+/whatsapp-build/.pnp.js
+
+# testing
+/whatsapp-build/coverage
+
+# production
+/whatsapp-build/build
+
+# misc
+/whatsapp-build/.DS_Store
+/whatsapp-build/.env.local
+/whatsapp-build/.env.development.local
+/whatsapp-build/.env.test.local
+/whatsapp-build/.env.production.local
+
+/whatsapp-build/npm-debug.log*
+/whatsapp-build/yarn-debug.log*
+/whatsapp-build/yarn-error.log*
+
+
+
+# ----Firebase----------------------------------------------------------------------
+
+
+# Local configuration file (ex. SDK path)
+/whatsapp-build/local.properties
+
+# Google Services (ex. APIs and Firebase)
+/whatsapp-build/google-services.json
+/whatsapp-build/GoogleService-Info.plist
+
+# Firebase Hosting
+/whatsapp-build/.firebaserc
+/whatsapp-build/firebase-debug.log
+
+
